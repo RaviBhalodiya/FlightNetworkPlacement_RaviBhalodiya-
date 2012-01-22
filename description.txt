@@ -1,0 +1,43 @@
+Problem 1::
+
+Here i have done this problem using  C. 
+Here mystack is a[Max].
+here i take one flag f initialized with 0.
+then i check f=0 then insert the first element and make f=1.
+Then i check previous element is 9 or not for checking 2nd condition.
+If previously inserted element is 9 then next element should be 0.
+
+otherwise i check previous element+1 is equal to the element which you want to 
+insert as 1st condition,otherwise insertion is not possible.
+
+Note:: According to your 2nd condition every pattern is possible.
+i.e. 2 4 7 5 
+for this pattern 
+push 2 pop 2 push 4 pop 4 push 7 pop 7 push 5 pop 5
+
+
+
+
+Problem 2::
+
+Here i have done this problem using an array in C.
+
+array a[]
+n=numbers of kids
+k=counting number
+
+
+I have initialized n numbers of elements of array(kids) as 1 using for loop.
+
+I have take two counter b and c which are initialized with 0
+
+b is used for counting eliminated kids(set element to 0).
+
+c is used for checking if n-1 elements are eliminated or not.
+
+while loop is executed n-1 times  which means n-1 kids are eliminated. 
+
+for loop is used for finding the winner. 
+
+
+ 
